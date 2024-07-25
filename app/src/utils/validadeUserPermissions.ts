@@ -1,12 +1,12 @@
 interface User {
-  permissions: string[]
-  roles: string[]
+  permissions: string[];
+  roles: string[];
 }
 
 interface ValidadeUserPermissionsParams {
-  user: User | undefined
-  permissions?: string[]
-  roles?: string[]
+  user: User | undefined;
+  permissions?: string[];
+  roles?: string[];
 }
 
 export function validadeUserPermissions({
@@ -16,23 +16,23 @@ export function validadeUserPermissions({
 }: ValidadeUserPermissionsParams) {
   if (permissions ? permissions.length > 0 : false) {
     const hasAllPermissions = permissions?.every((permission) => {
-      return user?.permissions.includes(permission)
-    })
+      return user?.permissions.includes(permission);
+    });
 
     if (!hasAllPermissions) {
-      return false
+      return false;
     }
   }
 
   if (roles ? roles.length > 0 : false) {
     const hasAllRoles = roles?.some((role) => {
-      return user?.roles.includes(role)
-    })
+      return user?.roles.includes(role);
+    });
 
     if (!hasAllRoles) {
-      return false
+      return false;
     }
   }
 
-  return true
+  return true;
 }
