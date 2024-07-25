@@ -1,6 +1,6 @@
 # UTxt
 
-UTxt é um projeto que permite o upload e gerenciamento de arquivos `.txt` para a criação e organização de contatos. Este projeto foi desenvolvido usando Next.js e Bootstrap e Tailwind CSS para criar uma interface de usuário intuitiva e responsiva.
+UTxt é um projeto que permite o upload e gerenciamento de arquivos `.txt` para a criação e organização de contatos. Este projeto foi desenvolvido usando Next.js, Bootstrap e Tailwind CSS para criar uma interface de usuário intuitiva e responsiva.
 
 ## Funcionalidades
 
