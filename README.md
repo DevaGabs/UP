@@ -35,7 +35,9 @@ Para começar a usar o projeto localmente, siga os passos abaixo:
     npm run dev (Talvez você precise rodar esse comando na pasta api e depois na pasta app)
      ou
     yarn dev
+
 O projeto estará disponível em http://localhost:3000.
+
 **Usuário teste**
 estagiario@gmail.com
 123456
