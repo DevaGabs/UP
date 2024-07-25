@@ -66,6 +66,8 @@ Este projeto é licenciado sob a Licença MIT.
 **Contato**
 Para mais informações, entre em contato com Gabryelle Melo.
 
+img ![Logo do Projeto](img.png)
+
 
 ### Notas
 
