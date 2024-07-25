@@ -29,14 +29,14 @@ Para começar a usar o projeto localmente, siga os passos abaixo:
      cd UTxt
 3. **Instale as dependências**:
     npm install
-    # ou
+     ou
     yarn install
 4. **Inicie o servidor de desenvolvimento**:
     npm run dev (Talvez você precise rodar esse comando na pasta api e depois na pasta app)
-    # ou
+     ou
     yarn dev
 O projeto estará disponível em http://localhost:3000.
-**Usuário teste*
+**Usuário teste**
 estagiario@gmail.com
 123456
    ou
