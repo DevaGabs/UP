@@ -32,10 +32,16 @@ Para começar a usar o projeto localmente, siga os passos abaixo:
     # ou
     yarn install
 4. **Inicie o servidor de desenvolvimento**:
-    npm run dev
+    npm run dev (Talvez você precise rodar esse comando na pasta api e depois na pasta app)
     # ou
     yarn dev
 O projeto estará disponível em http://localhost:3000.
+**Usuário teste*
+estagiario@gmail.com
+123456
+   ou
+gabryelle658@gmail.com
+123456   
 
 **Uso**
 Criação de Grupos: Acesse a página inicial para criar novos grupos.
